@@ -53,7 +53,7 @@ if (snakeX == appleX && snakeY == appleY) {
   }
 
 // colour of the grass 
-ctx.fillStyle = "lawngreen";
+ctx.fillStyle = "darkgreen";
 ctx.fillRect(0, 0, canvas.width, canvas.height)
 
   // paint snake
@@ -73,7 +73,7 @@ ctx.fillRect(0, 0, canvas.width, canvas.height)
 }
 
   // paint apple
-  ctx.fillStyle = "blue";
+  ctx.fillStyle ="yellow";
 ctx.fillRect (appleX * tileSize, appleY * tileSize, tileSize, tileSize);
 
   //set snake trail
