@@ -1,1 +1,1 @@
-# Snake-Game
+# Cherry-The-Snake
